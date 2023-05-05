@@ -78,19 +78,72 @@
                 <h2 class="u-text u-text-3">Свяжитесь с нами</h2>
                 <div class="u-expanded-width u-form u-form-1">
                   <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 10px" source="gsheets" name="form-1">
-                    <div class="u-form-group u-form-name u-label-none">
-                      <label for="name-3b9a" class="u-label">Name</label>
+                    <div class="u-form-group u-form-name u-label-top">
+                      <label for="name-3b9a" class="u-label">Имя</label>
                       <input type="text" placeholder="Ваше имя" id="name-3b9a" name="name" class="u-border-2 u-border-palette-2-base u-input u-input-rectangle u-radius-17" required="">
                     </div>
-                    <div class="u-form-email u-form-group u-label-none">
-                      <label for="email-3b9a" class="u-label">Email</label>
+                    <div class="u-form-group u-form-select u-label-top u-form-group-2">
+                      <label for="select-cab5" class="u-label">Пол</label>
+                      <div class="u-form-select-wrapper">
+                        <select id="select-cab5" name="gender" class="u-border-2 u-border-palette-2-base u-input u-input-rectangle u-radius-17">
+                          <option value="Мужчина" data-calc="Мужчина">Мужчина</option>
+                          <option value="Женщина" data-calc="Женщина">Женщина</option>
+                          <option data-calc="Неизвестно" value="Холодильник">Холодильник</option>
+                        </select>
+                        <svg class="u-caret u-caret-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="fill:currentColor;" xml:space="preserve"><polygon class="st0" points="8,12 2,4 14,4 "></polygon></svg>
+                      </div>
+                    </div>
+                    <div class="u-form-group u-form-number u-form-number-layout-range-number u-label-top u-form-group-3">
+                      <label for="range-f0f9" class="u-label">Возраст</label>
+                      <div class="u-input-row" data-value="20">
+                        <input value="20" min="12" max="99" step="1" type="range" placeholder="" id="range-f0f9" name="years" class="u-input u-range">
+                        <input type="number" placeholder="" id="number-range-f0f9" class="u-border-2 u-border-palette-2-base u-input u-input-rectangle u-radius-17" min="12" max="99" step="1" value="20">
+                      </div>
+                    </div>
+                    <div class="u-form-email u-form-group u-label-top">
+                      <label for="email-3b9a" class="u-label">E-mail</label>
                       <input type="email" placeholder="E-mail адрес" id="email-3b9a" name="email" class="u-border-2 u-border-palette-2-base u-input u-input-rectangle u-radius-17" required="">
                     </div>
-                    <div class="u-form-group u-form-message u-label-none">
-                      <label for="message-3b9a" class="u-label">Message</label>
+                    <div class="u-form-group u-form-radiobutton u-label-top u-form-group-5">
+                      <label class="u-label">Как с вами связаться?</label>
+                      <div class="u-form-radio-button-wrapper">
+                        <div class="u-input-row">
+                          <input id="field-c1ef" data-calc="Telegram" type="radio" name="radiobutton" value="Telegram" class="u-field-input">
+                          <label class="u-field-label" for="field-c1ef">Telegram</label>
+                        </div>
+                        <div class="u-input-row">
+                          <input id="field-3889" data-calc="Эл. Почта" type="radio" name="radiobutton" value="Эл. Почта" class="u-field-input">
+                          <label class="u-field-label" for="field-3889">Эл. Почта</label>
+                        </div>
+                        <div class="u-input-row">
+                          <input id="field-fb47" data-calc="Discord" type="radio" name="radiobutton" value="Discord" class="u-field-input">
+                          <label class="u-field-label" for="field-fb47">Discord</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="u-form-group u-form-message u-label-top u-form-group-6">
+                      <label for="message-0502" class="u-label">Ник-нейм в выбранной соц. сети</label>
+                      <textarea placeholder="Ваш ник, например @ivan_petrov" rows="4" cols="50" id="message-0502" name="nick" class="u-border-2 u-border-palette-2-base u-input u-input-rectangle u-radius-17"></textarea>
+                    </div>
+                    <div class="u-form-group u-form-select u-label-top u-form-group-7">
+                      <label for="select-8865" class="u-label">Товар</label>
+                      <div class="u-form-select-wrapper">
+                        <select id="select-8865" name="product" class="u-border-2 u-border-palette-2-base u-input u-input-rectangle u-radius-17" required="required">
+                          <option data-calc="Веб-сайт" value="Веб-сайт">Веб-сайт</option>
+                          <option data-calc="Мини-лендинг" value="Мини-лендинг">Мини-лендинг</option>
+                          <option data-calc="Редизайн" value="Редизайн">Редизайн</option>
+                          <option data-calc="Telegram Чат-бот" value="Telegram Чат-бот">Telegram Чат-бот</option>
+                          <option data-calc="Discord Чат-бот" value="Discord Чат-бот">Discord Чат-бот</option>
+                          <option data-calc="VK Чат-бот" value="VK Чат-бот">VK Чат-бот</option>
+                        </select>
+                        <svg class="u-caret u-caret-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="fill:currentColor;" xml:space="preserve"><polygon class="st0" points="8,12 2,4 14,4 "></polygon></svg>
+                      </div>
+                    </div>
+                    <div class="u-form-group u-form-message u-label-top">
+                      <label for="message-3b9a" class="u-label">Сообщение</label>
                       <textarea placeholder="Ваше сообщение" rows="4" cols="50" id="message-3b9a" name="message" class="u-border-2 u-border-palette-2-base u-input u-input-rectangle u-radius-17" required=""></textarea>
                     </div>
-                    <div class="u-align-left u-form-group u-form-submit u-label-none">
+                    <div class="u-align-left u-form-group u-form-submit u-label-top">
                       <a href="#" class="u-border-none u-btn u-btn-submit u-button-style u-custom-color-1 u-radius-15 u-btn-1">Отправить форму</a>
                       <input type="submit" value="submit" class="u-form-control-hidden">
                     </div>
